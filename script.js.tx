@@ -1,0 +1,21 @@
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  // interval: 2000,
+  // wrap: false,
+  
+});
+
+var y = document.querySelector('.elit p::before');
+var x = document.querySelector('.bools'); 
+x.addEventListener("click", myFunction);
+function myFunction (){
+x.style.opacity = 0.6;
+
+
+};
+
+
+
+
+  
+ 
